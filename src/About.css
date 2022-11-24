@@ -1,0 +1,11 @@
+.taj-mahal img {
+  height: 225px;
+  width: 225px;
+}
+
+@media screen and (max-width : 768px) {
+  .taj-mahal img {
+    height: 350px;
+    width: 350px;
+  }
+}

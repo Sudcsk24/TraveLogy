@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EAF6F6;
+}
+
+.states {
+  display: flex;
+  justify-content: center;
+}
+
+.odisha {
+  background-color: #fd7e14;
+  color: white;
+}
+
+.odisha:hover {
+  color: white;
+}
+
+.UP {
+  color: white;
+}
+
+.UP:hover {
+  color: white;
+}
+
+/* .dropdown {
+  margin: 30px 10px;
+} */
+
+.carousel-item {
+  background: black;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.carousel-item h5 {
+  font-size: 40px;
+}
+
+.carousel-item p {
+  font-size: 20px;
+}
+
+.image {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.widget {
+  padding: 50px 10px;
+  margin: 0px 20px;
+}
+
+/* #182C61 */
+
+#footer {
+  background-color: #182C61;
+  color: white;
+  padding: 20px 0;
+  margin: 30px 0px 0px 0px;
+}
+
+.main_footer {
+  background-color: #0c2461;
+  color: white;
+}
+
+.fa-brands {
+  margin: 0px 3px;
+}
+
+.agra img {
+  height: 300px;
+  width: 450px;
+}
+
+.tajmahal img {
+  height: 350px;
+  width: 350px;
+}
+
+.delhi img {
+  width: 400px;
+  height: 300px;
+}
+
+.features {
+  text-align: center;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width : 768px) {
+  .delhi img {
+    width: 300px;
+    margin-left: 19px;
+  }
+
+  .delhi h5,
+  h1 {
+    margin-left: 10px;
+  }
+
+  .image {
+    width: 300px;
+    padding: 9px;
+    text-align: center;
+  }
+
+  .sunTemple img {
+    width: 300px;
+  }
+
+  .khajuraho img {
+    width: 300px;
+  }
+
+  .kaziranga img {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width : 768px) and (max-width: 1024px) {
+  .khajuraho img {
+    width: 500px;
+  }
+
+  .kaziranga img {
+    width: 500px;
+  }
+}
